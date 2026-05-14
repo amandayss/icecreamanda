@@ -827,3 +827,17 @@ body {
     transform: translateX(-50%);
     z-index:999;
 }
+.top-bar{
+    width: 300px;
+    padding: 20px;
+    background: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login-btn{
+    padding: 8px 20px;
+    cursor: pointer;
+}

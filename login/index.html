@@ -20,6 +20,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="top-bar">
+        <p id="userInfo">Belum login</p>
+
+        <div id="authArea">
+            <button onclick="goLogin()" class="login-btn">
+                LOGIN
+            </button>
+        </div>
+    </div>
     <div class="soft-background">
         <div class="floating-shapes">
             <div class="soft-blob blob-1"></div>
@@ -160,6 +169,13 @@
 
     <script src="../../shared/js/form-utils.js"></script>
     <script src="script.js"></script>
+    
+    <script>
+    function goLogin() {
+        window.location.href = "login.html";
+    }
+    </script>
+    
     <script src="login/js/welcome.js"></script>
 </body>
 </html>

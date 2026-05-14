@@ -76,7 +76,9 @@ https://templatemo.com/tm-613-frost-bakery
   <main class="main">
     <nav class="nav-main">
       <a href="#collections">Collections</a>
-      <a href="#" onclick="openModal()">Our Story</a>
+      <a href="https://www.youtube.com/watch?v=Bi5p0sVJcmc" target="_blank">
+        Our Story
+      </a>
       <a href="#contact">Visit Us</a>
       <p id="userInfo">Belum Login</p>
       
@@ -696,36 +698,9 @@ https://templatemo.com/tm-613-frost-bakery
     </footer>
 
   </main>
-  <!-- OUR STORY MODAL -->
-<div id="videoModal" class="modal">
-  <div class="modal-content">
-    <span class="close" onclick="closeModal()">&times;</span>
-
-    <iframe 
-      width="800"
-      height="450"
-      src="https://www.youtube.com/embed/Bi5p0sVJcmc"
-      frameborder="0"
-      allowfullscreen>
-    </iframe>
-
-  </div>
-</div>
   
   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
   <script src="templatemo-frost-script.js"></script>
     <script src="login/js/welcome.js"></script>
-  <script>
-function openModal() {
-  document.getElementById("videoModal").style.display = "block";
-}
-
-function closeModal() {
-  document.getElementById("videoModal").style.display = "none";
-
-  const iframe = document.querySelector("#videoModal iframe");
-  iframe.src = iframe.src;
-}
-</script>
 </body>
 </html>

@@ -348,6 +348,21 @@ button {
 		var(--cream);
 	overflow: hidden;
 }
+.nav-main {
+	position: absolute;
+	top: 30px;
+	right: 50px;
+
+	display: flex;
+	align-items: center;
+	gap: 20px;
+
+	z-index: 999;
+}
+
+#authArea {
+	margin-left: auto;
+}
 
 .hero__content {
 	max-width: 640px;
@@ -1481,18 +1496,3 @@ button {
 		padding-left: 1.25rem;
 		padding-right: 1.25rem;
 	}
-}
-.nav-main {
-	display: flex;
-	align-items: center;
-	gap: 20px;
-	width: 100%;
-}
-
-#authArea {
-	margin-left: auto;
-}
-
-#userInfo {
-	white-space: nowrap;
-}
